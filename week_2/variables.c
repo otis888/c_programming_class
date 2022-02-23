@@ -9,6 +9,6 @@ int main(void)
 
     char myName[]="Galbadrakh";
     printf("my name is %s.\n", myName);
-
+    
     return 0;
 }
