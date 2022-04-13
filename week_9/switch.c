@@ -3,21 +3,20 @@
 int main(void)
 {
     char letter = 'a';
-    if (letter == 'a')
+    switch (letter)
     {
+    case 'a':
         printf("apple\n");
-    }
-    else if (letter == 'b')
-    {
+        break;
+    case 'b':
         printf("banana\n");
-    }
-    else if (letter == 'c')
-    {
+        break;
+    case 'c':
         printf("cat\n");
-    }
-    else if (letter == 'd')
-    {
+        break;
+    default:
         printf("other\n");
+        break;
     }
 
     return 0;
